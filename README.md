@@ -56,7 +56,7 @@ A lightweight, privacy-focused, self-hosted live location tracking application t
 ### Quick Deploy (Single Command)
 ```bash
 # Download and set permissions
-wget https://raw.githubusercontent.com/xsukax/xsukax-Live-Location-Tracker/main/location.php
+wget https://raw.githubusercontent.com/xsukax/xsukax-Live-Location-Tracker/main/index.php
 chmod 755 .
 ```
 
@@ -88,8 +88,8 @@ chmod 755 .
    ```nginx
    location /tracker {
        alias /path/to/application;
-       index location.php;
-       try_files $uri $uri/ /location.php?$query_string;
+       index index.php;
+       try_files $uri $uri/ /index.php?$query_string;
    }
    ```
 
@@ -115,7 +115,7 @@ flowchart LR
 ```
 
 1. **Initialize Tracking**
-   - Navigate to `https://yourdomain.com/location.php`
+   - Navigate to `https://yourdomain.com/index.php`
    - Select update interval (3s for high accuracy, 30s for battery saving)
    - Click "📍 Track My Location"
    - Allow location permissions when prompted
