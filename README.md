@@ -6,6 +6,8 @@
 
 A lightweight, privacy-focused, self-hosted live location tracking application that enables secure real-time location sharing without requiring user accounts, external dependencies, or third-party services.
 
+**Demo:** [https://xsukax.ct.ws/loc-tracker](https://xsukax.ct.ws/loc-tracker)
+
 ## 🔒 Security & Privacy Benefits
 
 ### Complete Data Sovereignty
